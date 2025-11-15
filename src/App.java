@@ -19,8 +19,10 @@ public class App {
                 cont++;
                 arregloA[i] = sc.nextInt();
             }
-            if (cont == numeroDeElementos)
+            if (cont == numeroDeElementos) {
+                cont = 0;
                 break;
+            }
         }
 
         System.out.println("Ingresa los elementos para el vector B entre 5 y 50");
@@ -31,8 +33,10 @@ public class App {
                 cont++;
                 arregloA[i] = sc.nextInt();
             }
-            if (cont == numeroDeElementos)
+            if (cont == numeroDeElementos) {
+                cont = 0;
                 break;
+            }
         }
 
         // int[] arregloA = { 1, 2, 2, 3 };
