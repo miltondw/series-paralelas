@@ -16,8 +16,8 @@ public class App {
         for (int i = 0; i < numeroDeElementos; i++) {
             valorAgregado = sc.nextInt();
             if (valorAgregado >= 5 && valorAgregado <= 50) {
-                cont++;
                 arregloA[i] = sc.nextInt();
+                cont++;
             }
             if (cont == numeroDeElementos) {
                 cont = 0;
@@ -30,8 +30,8 @@ public class App {
         for (int i = 0; i < numeroDeElementos; i++) {
             valorAgregado = sc.nextInt();
             if (valorAgregado >= 5 && valorAgregado <= 50) {
-                cont++;
                 arregloA[i] = sc.nextInt();
+                cont++;
             }
             if (cont == numeroDeElementos) {
                 cont = 0;
